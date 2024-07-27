@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    max-width: 1290px;
+    background-color:aliceblue;
+    margin: 0 auto;
+}
+:root{
+    --primary-text-color:black;
+    --secondary-text-color:skyblue;
+
+}
+
+/*  header section */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.img-logo{
+    height: 45px;
+    width:50px;
+    padding-right:3px ;
+}
+.navbar{
+    padding-left: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    display:flex ;
+    gap:2rem;
+}
+.extra{
+    display: flex;
+    gap:1rem;
+}
+#search{  
+    padding: 10px 16px;
+    border-radius: 1.3rem; 
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+.account{
+    font-size:20px;
+    color:skyblue;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+}
+.create-accounts{
+border: none;
+border-radius: 13px;
+color: black;
+transform: all 0.1s;
+padding: 0.75rem 1.5rem;
+font-size: 1rem;
+font-weight: 600;    
+}
+
+/*  hero section */
+
+.hero-section{
+    margin-top:10rem;
+    display: flex;
+}
+.hero-head{
+    max-width: 1290px;
+    color:black;
+}
+.hero-text{
+    font-size: 70px;
+    font-weight: 800;
+    padding:0 17px;
+}
+.hero-head .span-herotext{
+    color:orange;
+}
+.hero-para{
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-hero{
+    margin-top: 30px;
+    padding:10px 17px;
+    display: flex;
+    gap: 2rem;
+}
+.btn-try{
+    border: none;
+    border-radius: 18px;
+    padding: 0.45rem 2rem;
+    background-color: orange;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+.hero-head i{
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+
+}
+.btn-video{
+    border: none;
+    border-radius: 18px;
+    padding: 0.45rem 2rem;
+    background-color:lightgrey;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.img-right{
+    width:700px;
+    height:400px;
+    border:1px solid white;
+    border-radius: 0.8rem;
+}
+
+/*   comapny section */
+
+.company{
+    background-color:gainsboro;
+    border: 1px solid black;
+    margin-top: 5rem;
+    padding:2rem ;
+}
+.seperation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:1rem ;
+}
+.seperation p ,pre{
+    font-size: 1.2rem;
+}
+.company-tags{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-right:3px;
+    color:lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+}
+.company-tags i{
+    padding-right: 5px ;
+    display: flex;
+    justify-content: center;
+}
+.company-tags p{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.company-tags div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    padding-left: 3px;
+    margin-left: 9px;
+}
+.seperation-box-1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:10px ;
+}
+
+/*  features sections */
+
+.feature-section{
+    /* background-color: lightblue; */
+    margin-top: 4rem;
+    /* border: 1px solid black; */
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.feature-heading{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-fe{
+    background-color:lightcoral;
+    font-size: 1rem;
+    font-weight: 600;
+    color:white;
+    border:none;
+    border-radius: 0.34rem;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+/*  coursses features */
+
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+}
+.feature{
+    margin:2rem 0.34rem;
+    border:none;
+    border-radius: 0.45rem;
+    background-color: white;
+    cursor: pointer;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-feature{
+    width:180px;
+    height:200px;
+}
+.feature :nth-child(2){
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-top: 15px;
+    text-align: center;
+    color:black;
+}
+.feature :nth-child(3){
+    color: gray;
+    font-size: 0.999rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+/*courses section   */
+
+
+.courses{
+
+        margin-top: 4rem;
+}
+.head-course{
+    display: flex;
+    justify-content: space-between;
+}
+.head-course h1{
+    font-size: 2.3rem;
+    color: black;
+}
+.c-btn{
+    border: none;
+    border-radius: 0.56rem;
+    background-color: lightsalmon;
+    color: white;
+    padding:10px 9px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.para-c{
+    color: gray;
+    font-size: 0.899rem;
+    width:500px;
+    margin-top:2rem;
+    font-weight: 800;
+}
+
+
+/* blogs */
+
+.courses-new{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 0.455rem;
+    row-gap: 3rem;
+    margin-top: 4rem;
+}
+
+.box-1{
+    border:1px solid black;
+    padding:10px 20px;
+    margin:0 auto;
+
+
+}
+
+.img-blogs{
+    width:200px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.start button{
+    border: none;
+    border-radius: 1rem;
+    background-color: lightgray;
+    color: white;
+    padding:10px 20px;
+    cursor: pointer;
+}
+.b-pa{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 15px;
+}
+.about-c{
+    display: flex;
+    justify-content: space-between;
+}
+.lesson{
+    display: flex;
+    gap:10px;
+}
+
+i{
+    align-items: center;
+    margin-top: 8px;
+}
+.lesson p{
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.st{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/*  students abouts */
+
+.stu-about{
+    margin-top: 4rem ;
+}
+.heading-about{
+ text-align: center;
+}
+.heading-about h1{
+    font-size: 2.1rem;
+}
+.heading-about h3{
+    font-size: 18px;
+    color: gray;
+    padding: 7px;
+}
+/* 
+stu reviews */
+
+.about{
+    margin-top:3rem;
+}
+.review{
+    display:flex ;
+}
+.img-stu{
+    width: 200px;
+    height: 200px;
+    object-fit:cover;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 6px;
+   
+}
+.stu-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 200px;
+}
+.stu-name{
+    padding: 5px 1rem;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/*  platfrom */
+
+.platform{
+    margin-top: 5rem;
+    display: flex;
+    
+}
+.img-app{
+    height:600px;
+    width:500px;
+}
+.info-get{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6rem;
+
+}
+
+.heading-plat{
+    font-size: 1.8rem;
+    padding: 1.1rem;
+}
+.para-plat{
+    color:gray;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 1.4rem;
+    width:500px;
+}
+.img-links{
+    display: flex;
+}
+.img-links img{
+    width:200px;
+}
+.play-store{
+    padding-top: 3.6rem;
+}
+
+
+/*  footer */
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 5rem;
+   width:100%;
+   background-color: #353935;;
+   color: white;
+   margin-top: 4rem;
+}
+.company-footer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    width:3rem;
+}
+.logo-footer{
+    width: 70px;
+    height:70px;
+    color:white;
+}
+.brand-name{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 700;
+}
+ .para-footer{
+    padding:2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.links-join a{
+    color: lightblue;
+    padding: 0.3rem;
+}
+.help{
+    margin-top: 2rem;
+}
+.help ul{
+    list-style-type:none ;
+
+}
+.help ul li{
+    padding: 7px;
+    font-size: 1rem;
+}
